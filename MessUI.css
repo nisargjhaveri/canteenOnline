@@ -1,0 +1,209 @@
+html{
+height:100%;
+}
+body{
+height:100%;
+margin:0;
+padding:0;
+background-color:#F6F4F0;
+}
+#container
+{
+		min-height:100%;
+		width:60%;
+		margin-right:auto;
+		margin-left:auto;
+		padding:2%;
+		background-color: #FFFFFF;
+		box-shadow:0px 0px 15px 0px #888888;
+		opacity: 0.81;
+}
+/*By Nisarg*/
+#alertBack{
+		display:none;
+		position:fixed;
+		top:0;
+		right:0;
+		bottom:0;
+		left:0;
+		background-color:rgba(0,0,0,0.5);
+		text-align:center;
+		vertical-align:middle;
+	}
+	#alertData{
+		position:absolute;
+		display:inline-block;
+		background:white;
+		border-radius:5px;
+		top:25%;
+		bottom:25%;
+		left:25%;
+		right:25%;
+		overflow:auto;
+	}
+	.button{
+		cursor:pointer;
+		font-size:100%;
+		font-family:"Trebuchet MS", Helvetica, sans-serif;
+		padding:3px;
+		color:white;
+		text-align:center;
+		background-color:#498af2;
+		border-style:solid;
+		border-color:blue;
+		border-width:1px;
+		border-radius:2px;
+		box-shadow:0px 0px 1px black;
+	}
+	.button:hover{
+		box-shadow:0px 0px 2px black;
+	}
+	.button:active{
+		box-shadow:0px 0px 1px black inset;
+	}
+	/*By Nisarg*/
+#right
+{
+position:relative;
+left: 125px;
+}
+.jMenu
+{
+width:70%;
+padding: 25px 30px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+.veg
+{
+color:green;
+}
+.nonveg
+{
+color: red;
+}
+.itemName{
+	//padding-right:50px;
+	width:50%;
+}
+.itemPrice
+{
+width:15%;
+text-align:center;
+}
+#left
+{
+text-align: center;
+box-shadow:0px 5px 5px #888888;
+font-family:"Arial Black", Gadget, sans-serif;
+font-size: 27px;
+background-color: #F2F2F2;
+height: 40px;
+border-radius: 4px;
+}
+body
+{
+background-image:url('india-street-food.jpg');
+background-attachment: fixed;
+}
+/*#username
+{
+position: relative;
+top: 33px;
+right: 125px;
+}*/
+#jTotal
+{
+position: relative;
+text-align:right;
+width:64%;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+letter-spacing: 1px;
+}
+#tot
+{
+position:relative;
+//right: -250px;
+}
+#cnfrm td
+{
+padding: 15px;
+text-align: center;
+width: 40%;
+}
+#cnfrm
+{
+position:relative; 
+left:12%; 
+padding: 25px 30px; 
+font-family:'Trebuchet MS', Helvetica, sans-serif;
+font-size: 20px;
+ 
+}
+#order
+{
+box-shadow: 0px 5px 5px #888888;
+background-color: rgba(255,0,0,0.5);
+//opacity: 0.87;
+}
+.cantn
+{
+position:relative; 
+left:7%; 
+width:86%;
+padding: 25px 30px; 
+font-family:'Trebuchet MS', Helvetica, sans-serif;
+font-size: 20px;
+text-align: center;
+box-shadow: 0px 5px 5px #888888;
+background-color: rgba(255,0,0,0.5);
+margin-bottom: 20px;
+}
+.cth
+{
+padding: 15px;
+text-align: center;
+width: 150px;
+}
+.j1
+{
+width:70%;
+text-align:center;
+padding: 25px 30px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+position:relative;
+left:13%;
+margin-top: 35px;
+background-color: rgba(255,0,0,0.5);
+}
+.j11
+{
+width:20%;
+height: 30px;
+}
+a:visited
+{
+color:#FFFFFF;
+}
+#loginTable{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+margin-top:80px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+text-align:center;
+}
+#login
+{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+margin-top:110px;
+font-family:"Trebuchet MS", Helvetica, sans-serif;
+text-align:center;
+}
+#btn
+{
+margin-left:auto;
+margin-right:auto;
+margin-top:-100px;
+}
